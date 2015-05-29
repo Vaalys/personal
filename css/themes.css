@@ -1,0 +1,21 @@
+body{
+  font-family: 'Open Sans',Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 19px;
+  line-height: 1.4;
+  color: white;
+  background-color: black;
+}
+
+.ammie_face{
+  opacity: 0.6;
+}
+
+header{
+  font-family: 'Rancho', cursive;
+  font-size: 4em;
+  font-weight: light;
+}
+
+footer{
+  padding: 10px;
+}
