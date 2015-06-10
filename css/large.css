@@ -10,17 +10,13 @@ body{
 
 .main{
   min-height: 100%;
-  z-index: 2;
-  position: relative;
   text-align: left;
 }
 
 .main img {
-  margin: 15px auto;
 }
 
 .about_me{
-  padding: 30px 0 0 90px;
 }
 
 .main p{
@@ -28,25 +24,31 @@ body{
 }
 
 .portfolio{
-  max-width: 200px;
-  margin: 70px 0 0 90px;
+  margin: 0 auto;
+  color: #E4E6DB;
+  width: 70%;
 }
 
-.portfolio  a, .portfolio img{
-  height: 120px;
+.portfolio img{
+  height: 190px;
   width: auto;
+  margin: 20px 30px;
   display: block;
+  float: left;
+}
+.portfolio p{
+  margin: 40px 0;
+}
+
+.portfolio div{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .ammie_face{
   height: 100%;
-  width: auto;
-  z-index: 1;
-  position: absolute;
-  /*text-align: center;*/
   margin: 0 auto;
-  left: 0;
-  right: 0;
 }
 
 .ammie_pic{
@@ -54,18 +56,16 @@ body{
   margin: 0 auto;
 }
 
-footer{
-  z-index: 4;
+nav{
+  margin: 0 auto;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 10px 60px 0 0;
-  /*clear: both;*/
+  left: 20%;
+  top: 2%;
 }
 
-footer img, footer a{
-  position: relative;
+nav img{
+  width: 10%;
   height: 50px;
   width: auto;
-  clear: both;
+  margin: 8px;
 }

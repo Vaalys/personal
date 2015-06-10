@@ -2,16 +2,34 @@ body{
   font-family: 'Open Sans',Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
   font-size: 19px;
   line-height: 1.4;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: #101417;
+
 }
 
 .ammie_face{
   opacity: 0.6;
+  /*background-image: url("http://s11.postimg.org/olmb6h3ub/contrasted.jpg");*/
+  background-image: url("http://i.imgur.com/ZM3HtdX.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.about_me{
+  width: 40%;
+  /*left: 220;*/
+  /*padding: 20px 20px 20px 40px;*/
+  /*padding: 40px 40px 40px 100px;*/
+  left: 400px;
+  text-align: center;
+  position: absolute;
+  left: 12%;
+  bottom: 15%;
+  font-size: 25px;
 }
 
 header{
-  font-family: 'Rancho', cursive;
   font-size: 4em;
   font-weight: light;
 }
