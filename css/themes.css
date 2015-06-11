@@ -10,7 +10,7 @@ body{
   opacity: 0.6;
   background-image: url("http://i.imgur.com/ZM3HtdX.jpg");
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
