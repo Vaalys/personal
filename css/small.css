@@ -1,15 +1,42 @@
-.main{
+body{
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+.about_me{
+  width: 70%;
+  left: 2%;
+  /*font-size: 20px;*/
 }
 
 header{
   line-height: 1;
-  font-size: 2em;
+  font-size: 2.4em;
+}
+
+h1, h2{
+  font-size: 1.5em;
 }
 
 img{
 }
 
 .ammie_face{
-  background-image: url("http://i.imgur.com/ZM3HtdX.jpg");
+}
+
+footer{
+  padding: 5px 2px;
+}
+
+footer a{
+  display: inline;
+  margin: 30px 10px;
+}
+
+
+@media (max-width: 600px;){
+    body {
+      background-color: yellow;
+    }
 
 }
