@@ -33,10 +33,13 @@ footer a{
   margin: 30px 10px;
 }
 
+/*@media (max-width: 600px;){
 
-@media (max-width: 600px;){
-    body {
-      background-color: yellow;
-    }
 
+}*/
+
+@media (min-width: @screen-sm-min) {
+  body {
+    background-color: yellow;
+  }
 }
