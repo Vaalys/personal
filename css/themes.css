@@ -28,6 +28,11 @@ a{
   opacity: 0.7;
 }
 
+.portfolio a{
+  /*color: #f05f40;*/
+  /*transition: all .35s;*/
+}
+
 .portfolio img:hover {
   opacity: 1;
 }
@@ -42,6 +47,10 @@ header{
 
 header, h1, h2, h3{
   font-family: 'Pacifico', cursive;
+}
+
+h1, h2, h3{
+  /*font-family: 'Arimo', sans-serif;*/
 }
 
 footer{
