@@ -24,6 +24,11 @@ a{
   color: black;
 }
 
+.portfolio .fa{
+  color: white;
+  margin: 0 0 0 10px;
+}
+
 .portfolio img{
   opacity: 0.8;
 }
